@@ -1,0 +1,574 @@
+2022-09-07T10:13:17+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:13:55+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:14:27+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:14:53+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:15:28+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:15:48+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:16:26+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugin-editor.p...')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugin-editor.p...')
+#17 /home/site/wwwroot/wp-admin/plugin-editor.php(155): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:16:32+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:16:52+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:16:59+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:18:12+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:18:18+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:18:58+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:19:00+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:20:12+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugin-install....')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/includes/template.php(2052): do_action('admin_enqueue_s...', 'plugin-install....')
+#17 /home/site/wwwroot/wp-admin/includes/plugin-install.php(596): iframe_header('Plugin Installa...')
+#18 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): install_plugin_information('')
+#19 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#20 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#21 /home/site/wwwroot/wp-admin/plugin-install.php(82): do_action('install_plugins...')
+#22 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:20:50+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugin-install....')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/includes/template.php(2052): do_action('admin_enqueue_s...', 'plugin-install....')
+#17 /home/site/wwwroot/wp-admin/includes/plugin-install.php(596): iframe_header('Plugin Installa...')
+#18 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): install_plugin_information('')
+#19 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#20 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#21 /home/site/wwwroot/wp-admin/plugin-install.php(82): do_action('install_plugins...')
+#22 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:21:48+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugin-install....')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/includes/template.php(2052): do_action('admin_enqueue_s...', 'plugin-install....')
+#17 /home/site/wwwroot/wp-admin/includes/plugin-install.php(596): iframe_header('Plugin Installa...')
+#18 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): install_plugin_information('')
+#19 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#20 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#21 /home/site/wwwroot/wp-admin/plugin-install.php(82): do_action('install_plugins...')
+#22 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:39:02+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-includes/script-loader.php(2156): do_action('wp_enqueue_scri...')
+#17 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#18 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#19 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#20 /home/site/wwwroot/wp-includes/general-template.php(3042): do_action('wp_head')
+#21 /home/site/wwwroot/wp-content/themes/oceanwp/header.php(15): wp_head()
+#22 /home/site/wwwroot/wp-includes/template.php(770): require_once('/home/site/wwwr...')
+#23 /home/site/wwwroot/wp-includes/template.php(716): load_template('/home/site/wwwr...', true, Array)
+#24 /home/site/wwwroot/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#25 /home/site/wwwroot/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#26 /home/site/wwwroot/wp-includes/template-loader.php(106): include('/home/site/wwwr...')
+#27 /home/site/wwwroot/wp-blog-header.php(19): require_once('/home/site/wwwr...')
+#28 /home/site/wwwroot/index.php(17): require('/home/site/wwwr...')
+#29 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:39:16+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-includes/script-loader.php(2156): do_action('wp_enqueue_scri...')
+#17 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#18 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#19 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#20 /home/site/wwwroot/wp-includes/general-template.php(3042): do_action('wp_head')
+#21 /home/site/wwwroot/wp-content/themes/oceanwp/header.php(15): wp_head()
+#22 /home/site/wwwroot/wp-includes/template.php(770): require_once('/home/site/wwwr...')
+#23 /home/site/wwwroot/wp-includes/template.php(716): load_template('/home/site/wwwr...', true, Array)
+#24 /home/site/wwwroot/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#25 /home/site/wwwroot/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#26 /home/site/wwwroot/wp-includes/template-loader.php(106): include('/home/site/wwwr...')
+#27 /home/site/wwwroot/wp-blog-header.php(19): require_once('/home/site/wwwr...')
+#28 /home/site/wwwroot/index.php(17): require('/home/site/wwwr...')
+#29 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:40:13+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-includes/script-loader.php(2156): do_action('wp_enqueue_scri...')
+#17 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#18 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#19 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#20 /home/site/wwwroot/wp-includes/general-template.php(3042): do_action('wp_head')
+#21 /home/site/wwwroot/wp-content/themes/oceanwp/header.php(15): wp_head()
+#22 /home/site/wwwroot/wp-includes/template.php(770): require_once('/home/site/wwwr...')
+#23 /home/site/wwwroot/wp-includes/template.php(716): load_template('/home/site/wwwr...', true, Array)
+#24 /home/site/wwwroot/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#25 /home/site/wwwroot/wp-content/themes/oceanwp/page.php(12): get_header()
+#26 /home/site/wwwroot/wp-includes/template-loader.php(106): include('/home/site/wwwr...')
+#27 /home/site/wwwroot/wp-blog-header.php(19): require_once('/home/site/wwwr...')
+#28 /home/site/wwwroot/index.php(17): require('/home/site/wwwr...')
+#29 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:44:13+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('plugins.php')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#17 /home/site/wwwroot/wp-admin/plugins.php(605): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:46:52+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('toplevel_page_v...')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'toplevel_page_v...')
+#17 /home/site/wwwroot/wp-admin/admin.php(239): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+
+2022-09-07T10:53:52+00:00 CRITICAL Uncaught ReflectionException: Method ElementorPro\Modules\ThemeBuilder\Documents\Section::get_site_editor_type() does not exist in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass->getMethod('get_site_editor...')
+#1 /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_site_editor_type_bc()
+#2 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document::get_create_url()
+#3 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\Core\Common\Modules\Finder\Categories\Create->create_item_url_by_document_class('ElementorPro\\Mo...')
+#4 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/base-category.php(92): Elementor\Core\Common\Modules\Finder\Categories\Create->get_category_items()
+#5 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Base_Category->get_init_settings()
+#6 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#7 /home/site/wwwroot/wp-content/plugins/elementor/core/common/modules/finder/module.php(107): Elementor\Core\Base\Base_Object->get_settings()
+#8 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(142): Elementor\Core\Common\Modules\Finder\Module->get_init_settings()
+#9 /home/site/wwwroot/wp-content/plugins/elementor/core/base/base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#10 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(59): Elementor\Core\Base\Base_Object->get_settings()
+#11 /home/site/wwwroot/wp-content/plugins/elementor/core/base/app.php(36): Elementor\Core\Base\App->get_components_config()
+#12 /home/site/wwwroot/wp-content/plugins/elementor/core/common/app.php(153): Elementor\Core\Base\App->print_config()
+#13 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\App->register_scripts('toplevel_page_v...')
+#14 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#15 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#16 /home/site/wwwroot/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'toplevel_page_v...')
+#17 /home/site/wwwroot/wp-admin/admin.php(239): require_once('/home/site/wwwr...')
+#18 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 48
+

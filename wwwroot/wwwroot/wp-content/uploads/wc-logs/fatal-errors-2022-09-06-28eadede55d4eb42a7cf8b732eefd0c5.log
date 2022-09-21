@@ -1,0 +1,48 @@
+2022-09-06T10:48:10+00:00 CRITICAL Uncaught ValueError: Invalid or uninitialized Zip object in /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php:316
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(316): ZipArchive->getFromName('xl/_rels/workbo...', 0, 1)
+#1 /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(406): PhpOffice\PhpSpreadsheet\Reader\Xlsx->getFromZipArchive(Object(ZipArchive), 'xl/_rels/workbo...')
+#2 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(1604): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('/home/site/wwwr...')
+#3 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(2004): WPDataTable->excelBasedConstruct('/home/site/wwwr...', Array)
+#4 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(606): WPDataTable->fillFromData(Object(stdClass), Array)
+#5 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(36): WDTConfigController::tryCreateTable('csv', '/home/site/wwwr...')
+#6 /home/site/wwwroot/wp-content/plugins/wpdatatables/controllers/wdt_admin_ajax_actions.php(23): WDTConfigController::saveTableConfig(Object(stdClass))
+#7 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): wdtSaveTableWithColumns('')
+#8 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#10 /home/site/wwwroot/wp-admin/admin-ajax.php(187): do_action('wp_ajax_wpdatat...')
+#11 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php on line 316
+
+2022-09-06T10:49:59+00:00 CRITICAL Uncaught ValueError: Invalid or uninitialized Zip object in /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php:316
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(316): ZipArchive->getFromName('xl/_rels/workbo...', 0, 1)
+#1 /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(406): PhpOffice\PhpSpreadsheet\Reader\Xlsx->getFromZipArchive(Object(ZipArchive), 'xl/_rels/workbo...')
+#2 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(1604): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('/home/site/wwwr...')
+#3 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(2004): WPDataTable->excelBasedConstruct('/home/site/wwwr...', Array)
+#4 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(606): WPDataTable->fillFromData(Object(stdClass), Array)
+#5 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(36): WDTConfigController::tryCreateTable('csv', '/home/site/wwwr...')
+#6 /home/site/wwwroot/wp-content/plugins/wpdatatables/controllers/wdt_admin_ajax_actions.php(23): WDTConfigController::saveTableConfig(Object(stdClass))
+#7 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): wdtSaveTableWithColumns('')
+#8 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#10 /home/site/wwwroot/wp-admin/admin-ajax.php(187): do_action('wp_ajax_wpdatat...')
+#11 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php on line 316
+
+2022-09-06T10:56:05+00:00 CRITICAL Uncaught ValueError: Invalid or uninitialized Zip object in /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php:316
+Stack trace:
+#0 /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(316): ZipArchive->getFromName('xl/_rels/workbo...', 0, 1)
+#1 /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(406): PhpOffice\PhpSpreadsheet\Reader\Xlsx->getFromZipArchive(Object(ZipArchive), 'xl/_rels/workbo...')
+#2 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(1604): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load('/home/site/wwwr...')
+#3 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wpdatatable.php(2004): WPDataTable->excelBasedConstruct('/home/site/wwwr...', Array)
+#4 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(606): WPDataTable->fillFromData(Object(stdClass), Array)
+#5 /home/site/wwwroot/wp-content/plugins/wpdatatables/source/class.wdtconfigcontroller.php(36): WDTConfigController::tryCreateTable('csv', '/home/site/wwwr...')
+#6 /home/site/wwwroot/wp-content/plugins/wpdatatables/controllers/wdt_admin_ajax_actions.php(23): WDTConfigController::saveTableConfig(Object(stdClass))
+#7 /home/site/wwwroot/wp-includes/class-wp-hook.php(307): wdtSaveTableWithColumns('')
+#8 /home/site/wwwroot/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 /home/site/wwwroot/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#10 /home/site/wwwroot/wp-admin/admin-ajax.php(187): do_action('wp_ajax_wpdatat...')
+#11 {main}
+  thrown in /home/site/wwwroot/wp-content/plugins/wpdatatables/lib/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php on line 316
+
